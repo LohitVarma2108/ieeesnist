@@ -83,6 +83,117 @@ main {
     padding: 10px;
 }
 
+.newsletter {
+    display: flex;      
+    padding: 20px;
+}
+
+#popup hr{
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background: rgba(2, 0, 0, 0.5);
+}
+
+#popup p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#popup input{
+    border-radius: 3px;
+    width: 100%;
+    height: 55px;
+    border: 0px;
+    padding: 0 20px;
+    margin-bottom: 36px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: black;
+    color: cornsilk;
+}
+::placeholder{
+    color: cornsilk;
+}
+
+#popup .subbut{
+    position: relative;
+    left: 200px;
+    border: 1px solid black;
+    height: 50px;
+    background-color:transparent;
+    color:black;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.newsletter .content 
+{
+    position: relative;
+    max-width: 100px;
+
+}
+.newsletter#blur.active{
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+a 
+{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(13, 86, 221);
+    border-radius: 15px;
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+
 #letter-head {
     padding: 10px;
 }
