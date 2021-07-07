@@ -17,6 +17,14 @@ const catalogueCards = document.querySelectorAll('#catalogue .card ')
 const mission = document.querySelector('#mission')
 const vision = document.querySelector('#vision')
 
+//BLUR FUNCTION FOR POP UP
+function toggle() {
+  var blur = document.getElementById("blur");
+  blur.classList.toggle("active");
+  var popup = document.getElementById("popup");
+  popup.classList.toggle("active");
+}
+
 
 //SETTING ALL THE ANIMATIONS
 sr.reveal(navbar, {
