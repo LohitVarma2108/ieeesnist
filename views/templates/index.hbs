@@ -40,10 +40,30 @@
     </header>  
             
 <main>
+    
     <section id="letter-head">
         <div id="h2-div">
             <h2 id="chairperson" class="text-center">Message from The Chair-Person</h2>
         </div>
+        <div class="newsletter" id="blur">
+      <div class="content">
+        <h2>
+          Subscribe to our Newsletter.
+        </h2>
+        <a href="#" onclick="toggle()">Subscribe</a>
+      </div>
+    </div>
+    <div id="popup">
+      <div  onclick="toggle()" class="close">+</div>
+      <h2>Newsletter Subscription</h2>
+      <p>
+       Enter your email-id below to get regular updates on events and activities.
+      </p>
+      <form>
+          <input type="email" placeholder="E-Mail" id="" required>
+          <br>
+          <button onclick="showAlert()" type="submit" class="subbut">Submit</button>
+      </form>
         <div class="container">
             <div class="row">
                 <div id="left-side" class="col-md-8 col-sm-12 text-justify">
