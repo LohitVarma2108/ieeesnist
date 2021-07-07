@@ -646,13 +646,13 @@ footer a {
     font-weight: bold;
     cursor: pointer;
 }
-#elementblur h3 
+.blurrow#elementblur h3 
 {
     position: relative;
     max-width: 100px;
 
 }
-#elementblur.active{
+.blurrow#elementblur.active{
     filter: blur(5px);
     pointer-events: none;
     user-select: none;
