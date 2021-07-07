@@ -85,7 +85,8 @@ main {
 
 .newsletter {
     display: flex;      
-    padding: 20px;
+    padding: 10px;
+    position: fixed;
 }
 
 #popup hr{
@@ -137,7 +138,7 @@ main {
 .newsletter .content 
 {
     position: relative;
-    max-width: 100px;
+    max-width: 50px;
 
 }
 .newsletter#blur.active{
