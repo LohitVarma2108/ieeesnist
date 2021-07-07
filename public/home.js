@@ -19,7 +19,7 @@ const vision = document.querySelector('#vision')
 
 //BLURRING FOR NEWSLETTER
 function toggle() {
-  var blur = document.getElementById("blur");
+  var blur = document.getElementById("element");
   blur.classList.toggle("active");
   var popup = document.getElementById("popup");
   popup.classList.toggle("active");
