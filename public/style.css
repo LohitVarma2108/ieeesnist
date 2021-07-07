@@ -648,7 +648,7 @@ footer a {
 }
 
 .newsletter#blur.active{
-    filter: blur(100%);
+    filter: blur(5px);
     pointer-events: none;
     user-select: none;
 }
