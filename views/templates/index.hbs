@@ -226,9 +226,20 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <a href="" class="btn">Subscribe</a>
+                    <a onclick="toggle()" class="btn">Subscribe</a>
                 </div>
-            </div>
+                <div id="popup">
+                    <div  onclick="toggle()" class="close">+</div>
+                    <h2>Newsletter Subscription</h2>
+                    <p>
+                        Enter your email-id below to get regular updates on events and activities.
+                    </p>
+                    <form>
+                        <input type="email" placeholder="E-Mail" id="" required>
+                    <br>
+                        <button onclick="showAlert()" type="submit" class="subbut">Submit</button>
+                    </form>
+                    </div>
         </div>
     </section>
     
