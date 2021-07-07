@@ -84,24 +84,7 @@ main {
 }
 
 
-h2 {
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #333;
-    text-align: center;
-}
 
-a 
-{
-    position: relative;
-    padding: 5px 20px;
-    display: inline-block;
-    margin-top: 5px;
-    text-decoration: none;
-    color: #fff;
-    background: rgb(13, 86, 221);
-    border-radius: 15px;
-}
 
 
 #letter-head {
