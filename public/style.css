@@ -647,15 +647,7 @@ footer a {
     cursor: pointer;
 }
 
-
-#elementblur h3 
-{
-    position: relative;
-    max-width: 100px;
-
-}
-
-.blurrow#elementblur.active{
+.row#element.active{
     filter: blur(5px);
     pointer-events: none;
     user-select: none;
